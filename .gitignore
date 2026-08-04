@@ -1,0 +1,10 @@
+**/__pycache__/
+*.py[cod]
+*.so
+*.log
+*.tmp
+*.swp
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/

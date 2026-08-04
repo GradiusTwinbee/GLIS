@@ -1,0 +1,11 @@
+TOKENIZERS_PARALLELISM=false PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:32 python main.py \
+--dataset_name scannet \
+--nqueries 128 \
+--test_only \
+--matcher_giou_cost 1 \
+--matcher_cls_cost 0 \
+--matcher_center_cost 0 \
+--matcher_objectness_cost 0 \
+--dataset_num_workers 2 \
+--batchsize_per_gpu 1 \
+--ngpus 1

@@ -1,0 +1,28 @@
+# Generated from: conda env export -n glis --no-builds
+name: glis
+channels:
+  - defaults
+dependencies:
+  - python=3.9.25
+  - pip=26.0.1
+  - cython=3.1.4
+  - ninja
+  - pip:
+      - clip==1.0
+      - ftfy==6.3.1
+      - numpy==2.0.2
+      - opencv-python==4.13.0.92
+      - packaging==26.1
+      - pillow==11.3.0
+      - plyfile==1.1.3
+      - requests==2.32.5
+      - regex==2026.1.15
+      - scipy==1.13.1
+      - torch==2.6.0+cu124
+      - torchaudio==2.6.0+cu124
+      - torchvision==0.21.0+cu124
+      - tqdm==4.67.3
+      - transformers==4.31.0
+      - trimesh==2.35.39
+      - ./third_party/CLIP
+      - ./third_party/pointnet2
